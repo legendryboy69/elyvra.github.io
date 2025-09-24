@@ -1,0 +1,18 @@
+[
+  {
+    "id": "prod-ebook-1",
+    "title": "Mastering Productivity (eBook)",
+    "description": "100 pages of productivity hacks and templates.",
+    "priceINR": 199,
+    "filename": "mastering-productivity.pdf",
+    "thumbnail": "/assets/ebook-thumb.png"
+  },
+  {
+    "id": "prod-templates-1",
+    "title": "UI Kit & Templates",
+    "description": "Collection of 20 modern UI templates (Figma).",
+    "priceINR": 499,
+    "filename": "ui-kit-templates.zip",
+    "thumbnail": "/assets/templates-thumb.png"
+  }
+]
