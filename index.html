@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Elyvra Digital Store</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <div class="logo">ELYVRA</div>
+      <div class="tag">Digital Products — Modern • Minimal</div>
+    </div>
+    <nav>
+      <button id="cart-btn">Cart (<span id="cart-count">0</span>)</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Sell smarter. Deliver instantly.</h1>
+      <p>Digital products — eBooks, templates, courses, design assets.</p>
+    </section>
+
+    <section id="products" class="grid"></section>
+
+    <section id="checkout-panel" class="card hidden">
+      <h3>Your Cart</h3>
+      <div id="cart-items"></div>
+      <div class="cart-footer">
+        <div>Total: ₹ <span id="cart-total">0</span></div>
+        <div>
+          <input id="buyerName" placeholder="Name (optional)" />
+          <input id="buyerEmail" placeholder="Email (optional)" />
+        </div>
+        <button id="checkout-btn" class="btn">Pay with Razorpay</button>
+      </div>
+    </section>
+
+    <section id="download-panel" class="card hidden">
+      <h3>Thank you — Payment confirmed</h3>
+      <p id="download-msg">Your download link:</p>
+      <a id="download-link" class="btn" href="#" download>Download Now</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© Elyvra — Modern • Minimal • Black · White · Grey</small>
+  </footer>
+
+<script src="/app.js"></script>
+</body>
+</html>
